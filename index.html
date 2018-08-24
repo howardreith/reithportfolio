@@ -26,7 +26,7 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-right navbar-light bg-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,7 +79,9 @@
         <div class="row">
           <div class="col-lg-12">
               <h3>About Me</h3>
-              <img id='headshot' src='img/headshot.jpg'>
+              <div id='headshot-wrapper'>
+                <img id='headshot' src='img/headshot.jpg'>
+              </div>
               <p class="lead mb-0">I am a software engineer, writer, and singer, recently graduated from General Assembly's Web Development Immersive program.</p>
               <p class="lead mb-0">Below you will find my growing portfolio of full stack projects including those developed as part of my WDI coursework.</p>
               <p class="lead mb-0">In addition to my web development skills, I possess 7+ years of experience in finance including 4+ years in grants administration/accounting and 2+ years in financial services. I graduated magna cum laude with a degree in music and am the published author of a book on self-help and social skills.</p>
@@ -171,12 +173,12 @@
         <!-- <div id='projects-header-wrapper'>
           <h2>Projects</h2>
         </div> -->
-        <div class="row no-gutters">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/hotguyde.jpg');"></div>
+        <div class="row no-gutters pictures-row">
+          <div id='hotguydeimage' class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/hotguyde.jpg');"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
             <h2><a href='https://howardreith.github.io/hotguydefrontend/' target="_blank">The Hot Guyde Companion</a></h2>
             <p><a href='https://github.com/howardreith/hotguydefrontend' target="_blank">Github</a></p>
-            <p class="lead mb-0">The Hot Guyde Companion is a full stack application built to help readers track their progress on exercises from my book, <a href="http://thehotguyde.com"><i>The Hot Guyde.</i></a>. Current features include a journal and a tool for tracking one's "columns method" CBT exercises. Future versions will feature workout/diet tracking, exposure therapy tracking, and more. It is built with Ember.js, Handlebars.js, Bootstrap, Ruby on Rails, HTML, SCSS, and Javascript.</p>
+            <p class="lead mb-0">The Hot Guyde Companion is a full stack application built to help readers track their progress on exercises from my book, <a href="http://thehotguyde.com"><i>The Hot Guyde.</i></a> Current features include a journal and tools for tracking one's columns method, downward-arrow technique, and exposure therapy exercises. It is built with Ember.js, Handlebars.js, Bootstrap, Ruby on Rails, HTML, SCSS, and Javascript.</p>
           </div>
         </div>
         <div class="row no-gutters">
@@ -188,7 +190,7 @@
           </div>
         </div>
         <div class="row no-gutters">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/pathfinderlogo.jpg');"></div>
+          <div id='pathfinderimage' class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/pathfinderlogo.jpg');"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
             <h2><a href='https://howardreith.github.io/PathfinderStatBlockLab' target="_blank">Pathfinder Stat Block Lab</a></h2>
             <p><a href='https://github.com/howardreith/PathfinderStatBlockLab' target="_blank">Github</a></p>
@@ -196,7 +198,7 @@
           </div>
         </div>
         <div class="row no-gutters">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/tictactoe.png');"></div>
+          <div id='tictactoeimage' class="col-lg-6 text-white showcase-img" style="background-image: url('img/tictactoe.png');"></div>
           <div class="col-lg-6 my-auto showcase-text">
             <h2><a href="https://howardreith.github.io/tictactoe/" target="_blank">Tic Tac Toe</a></h2>
             <p><a href='https://github.com/howardreith/tictactoe' target="_blank">Github</a></p>

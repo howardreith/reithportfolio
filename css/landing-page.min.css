@@ -26,9 +26,20 @@ body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif}h1,h2,h3,h4,h5
   padding: 0px;
 }
 
-.background-image {
-  max-width: 100%;
-  overflow: hidden;
+#hotguydeimage {
+  background-size:100% auto;
+}
+
+#duckcloudimage {
+  background-size:100% auto;
+}
+
+#pathfinderimage {
+  background-size:100% auto;
+}
+
+#tictactoeimage {
+  background-size:100% auto;
 }
 
 /* .image-wrapper {

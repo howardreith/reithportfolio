@@ -66,10 +66,7 @@ body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif}h1,h2,h3,h4,h5
   object-fit: cover;
 } */
 
-/* #projects-header-wrapper {
-  text-align: center;
-  margin-top: 8px;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  background-color: white;
-} */
+#projects-header-wrapper {
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
